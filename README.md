@@ -21,13 +21,13 @@ sequenceDiagram
     Note left of SERVIDOR: Cliente: Mensaje nº 1
     SERVIDOR->Cliente: <----Confirmacion
     Note left of SERVIDOR: Servidor: conexion aceptada y confirmada
-    Note right of SERVIDOR: Cliente en desconectado
+    Note right of SERVIDOR: Cliente desconectado
     Note right of SERVIDOR: Cliente en linea
     Cliente->SERVIDOR: Mensaje 2---->
     Note left of SERVIDOR: Cliente: Mensaje nº 2
     SERVIDOR->Cliente: <----Confirmacion
     Note left of SERVIDOR: Servidor: conexion aceptada y confirmada
-    Note right of SERVIDOR: Cliente en desconectado
+    Note right of SERVIDOR: Cliente desconectado
 ```
 
 ## Conexion TCP entre Cliente & Servidor.
