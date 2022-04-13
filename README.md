@@ -69,7 +69,7 @@ public class Servidor {
                 //Acepto la conexion del cliente
                 sc = servidor.accept();
 
-                //Habilito la entrada/salida de info con el cliente
+                //Proceso la entrada/salida de info con el cliente
                 in = new DataInputStream(sc.getInputStream());
                 out = new DataOutputStream(sc.getOutputStream());
                 
@@ -128,10 +128,8 @@ public class Cliente {
             //Creo el enlace con el servidor
             Socket sc = new Socket(HOST, PUERTO);
  
-            //Habilito la entrada de informacion desde el servidor
+            //Proceso la entrada/salida de informacion desde el servidor
             in = new DataInputStream(sc.getInputStream());
-            
-            //Habilito la salida de informacion hacia el servidor
             out = new DataOutputStream(sc.getOutputStream());
  
             //Envio un mensaje al servidor codificado en UTF
