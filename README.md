@@ -104,11 +104,11 @@ public class Servidor {
 
 
 ### **Clase Cliente**
-> 1. Seteamos IP y Puerto (Socket)
-> 2. Enviamos un mensaje al servidor
-> 3. Recibimos cualquier mensaje del servidor
-> 4. Cerramos conexion
-> 5. Repetimos 2 veces
+> 1. Seteamos IP y Puerto (Socket) del servidor.
+> 2. Enviamos un mensaje al servidor.
+> 3. Recibimos cualquier mensaje del servidor.
+> 4. Cerramos conexion.
+> 5. Enviamos 2 mensajes.
 ```java
 public class Cliente {
  
