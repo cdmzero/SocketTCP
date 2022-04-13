@@ -6,7 +6,7 @@ El cliente abre una sesion en el servidor y este guarda un estado del cliente.
 
 
 ## Sobre este proyecto
-Se trata de un servidor que expone el puerto 50001 para aceptar peticiones de otros hosts clientes y notifica al host sobre la recepcion de los mensajes.
+Se trata de un servidor que expone el puerto 50001 para aceptar menajes del cliente y notifica cuando se acepta la conexion entre ambos.
 
 * * *
 
